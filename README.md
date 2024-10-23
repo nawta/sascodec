@@ -2,7 +2,7 @@
 
 ## Getting Started
 
-This is the repository for the SASCodec, which is applied in paper "TransVIP: Speech to Speech Translation System with Voice and Isochrony Preservation".
+This is the repository for the SASCodec, which is applied in paper [TransVIP: Speech to Speech Translation System with Voice and Isochrony Preservation](https://arxiv.org/abs/2405.17809).
 
 ### Installation
 
