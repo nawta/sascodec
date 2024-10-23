@@ -4,8 +4,6 @@
 
 This is the repository for the SASCodec, which is applied in paper "TransVIP: Speech to Speech Translation System with Voice and Isochrony Preservation".
 
-## Specification of dependencies
-
 ### Installation
 
 ```bash
