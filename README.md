@@ -32,9 +32,9 @@ codes = model.encode(wav) # codes, shape: (batch, n_q, timesteps)
 reconstructed_wav = model.decode(codes) # reconstructed_wav, shape: (batch, 1, timesteps)
 ```
 
-### Training
+<!-- ### Training
 
-Refer to the script [here](.) for training the model.
+Refer to the script [here](.) for training the model. -->
 
 ## Acknowledgement
 
