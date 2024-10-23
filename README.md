@@ -9,18 +9,24 @@ This is the repository for the SASCodec, which is applied in paper "TransVIP: Sp
 ### Installation
 
 ```bash
-git clone https://github.com/descriptinc/audiotools
-cd sascodec
-pip install .
+pip install git+https://github.com/nethermanpro/sascodec.git
 ```
 
-Pretrained checkpoint on CommonVoice 15 dataset is available [here](https://drive.google.com).
+or install editable version.
+
+```bash
+git clone https://github.com/nethermanpro/sascodec.git
+cd sascodec
+pip install -e .
+```
+
+Pretrained checkpoint on CommonVoice 15 multi-lingual dataset is available [here](https://drive.google.com/file/d/1CLcvP1QYo7SY-mIhtBaX-r_Lbex9E1pY/view?usp=sharing).
 
 ### Usage
 
 ```python
 from sascodec import SASCodec
-model = SASCodec.from_pretrained("/path/to/checkpoint")
+model = SASCodec.from_pretrained("/path/to/sascodec.pt")
 wav = [...] # load some wav file, shape: (batch, 1, timesteps)
 codes = model.encode(wav) # codes, shape: (batch, n_q, timesteps)
 reconstructed_wav = model.decode(codes) # reconstructed_wav, shape: (batch, 1, timesteps)
