@@ -34,7 +34,7 @@ setup(
     python_requires=REQUIRES_PYTHON,
     url=URL,
     packages=['sascodec', 'sascodec.modules'],
-    install_requires=['numpy', 'torch', 'einops', 'audiotools@git+https://github.com/descriptinc/audiotools'],
+    install_requires=['numpy', 'torch', 'einops', 'descript-audiotools @ git+https://github.com/descriptinc/audiotools.git@main'],
     include_package_data=True,
     license='Apache License 2.0',
     classifiers=[
