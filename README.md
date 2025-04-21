@@ -38,7 +38,7 @@ cd sascodec
 pip install -e .
 ```
 
-Pretrained checkpoint on CommonVoice 15 multi-lingual dataset is available [here](https://drive.google.com/file/d/1CLcvP1QYo7SY-mIhtBaX-r_Lbex9E1pY/view?usp=sharing).
+Pretrained checkpoint on CommonVoice 15 multi-lingual dataset is available [here](https://drive.google.com/file/d/1PlFqmWuG_OkXAqstbVKufSb1h88pOXuE/view?usp=sharing).
 
 ### Usage
 
